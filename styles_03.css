@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 3px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3px;
+}
+
+.nav-links li::after {
+    content: "|";
+    margin-left: 3px;
+}
+
+.nav-links li:last-child::after{
+    content: "";
+}
+
+hr {
+border: none;
+height: 2px;
+background-color: gray;
+margin: 20px 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.apresentacao p{
+    margin: 20px 10px ;
+}
+
+.titulo-apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.titulo-apresentacao img{
+    width: 30px;
+    height: 30px;
+}
+
+.disciplinas{
+    margin: 20px 10px;
+}
+
+.titulo-disciplinas{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-disciplinas img{
+    width: 30px;
+    height: 30px;
+}
+
+.disciplinas ul{
+    margin-left: 40px;
+}
