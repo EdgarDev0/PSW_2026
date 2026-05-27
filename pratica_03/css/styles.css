@@ -68,6 +68,10 @@ margin: 20px 10px;
     margin: 20px 10px;
 }
 
+.disciplinas p{
+    margin: 20px 0px;
+}
+
 .titulo-disciplinas{
     display: flex;
     align-items: center;
@@ -81,4 +85,70 @@ margin: 20px 10px;
 
 .disciplinas ul{
     margin-left: 40px;
+}
+
+.conteudo-planejado{
+    margin: 20px 10px;
+}
+
+.titulo-conteudo-planejado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.conteudo-planejado p{
+    margin: 20px 0px;
+}
+
+.titulo-conteudo-planejado img{
+    width: 30px;
+    height: 30px;
+}
+
+.conteudo-planejado ol{
+    margin-left: 40px;
+}
+
+.o-que-aprendemos{
+    margin: 20px 10px;
+}
+
+.titulo-o-que-aprendemos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-o-que-aprendemos img{
+    width: 30px;
+    height: 30px;
+}
+
+.o-que-aprendemos p{
+    margin: 20px 0px;
+}
+
+.o-que-aprendemos ul{
+    margin-left: 40px;
+}
+
+.links-uteis{
+    margin: 20px 10px;
+}
+
+.titulo-links-uteis{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-links-uteis img{
+    width: 30px;
+    height: 30px;
+}
+
+.links-uteis ul{
+   margin-left: 40px;
+   margin-top: 20px;
 }
