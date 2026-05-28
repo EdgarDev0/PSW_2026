@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    background: #f2f2f2;
+}
+
+#imagem-receita img{
+    width: 100%;
+    height: auto;
+    max-width: 25rem;
+    border-radius: 0.8rem;
+}
+
+.container{
+    width: 90%;
+    max-width: 64rem;
+    display: flex;
+    background: #fff;
+    border-radius: 1rem;
+    margin: 4rem auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#receita{
+    line-height: 1.5; /*Nao usar unidade de medida multiplica o valor pelo tamanho padrao da fonte*/
+}
+
+.bi{
+    font-size: 2rem;
+}
+
+.titulo-receita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Code", monospace;
+    gap: 0.5rem;
+}
+
+.subtitulo-receita p{
+    
+    text-indent: 4rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    margin: 1rem auto;
+}
+
+#ingredientes{
+    font-weight: 500;
+}
+
+.titulo-ingredientes{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#ingredientes ul{
+    margin: 1rem 2rem;    
+}
+
+.titulo-preparo{
+    margin-top: 0.8rem;
+}
+
+.tempo-preparo{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-style: oblique;
+    margin-top: 1rem;
+    color: #555;
+    gap: 5px;
+}
+
+.tempo-preparo .bi{
+    font-size: 1rem;
+}
+
+#modo-de-preparo ol{
+    font-weight: 500;
+    margin: 1rem 3rem;
+}
