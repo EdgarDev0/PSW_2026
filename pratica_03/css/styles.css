@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.banner {
+    border: 2px solid red;
+}
+
+.banner img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 h1 {
     margin-left: 10px;
 }
@@ -151,4 +161,12 @@ margin: 20px 10px;
 .links-uteis ul{
    margin-left: 40px;
    margin-top: 20px;
+}
+
+.center-content {
+    margin: 0 auto;
+}
+
+.max-width-container {
+    max-width: 1200px;
 }
