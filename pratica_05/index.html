@@ -24,17 +24,17 @@
                 <strong>Menu de navegação:</strong>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Apresentação</a></li>
-                <li><a href="#">Disciplinas</a></li>
-                <li><a href="#">Conteúdo Planejado</a></li>
-                <li><a href="#">O Que Foi Aprendido</a></li>
-                <li><a href="#">Links Úteis</a></li>
+                <li><a href="#apresentacao">Apresentação</a></li>
+                <li><a href="#disciplinas">Disciplinas</a></li>
+                <li><a href="#conteudo-planejado">Ementa</a></li>
+                <li><a href="#aprendizados">Aprendizados</a></li>
+                <li><a href="#links-uteis">Links Úteis</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="center-content max-width-container">
-        <section class="apresentacao divisor">
+        <section class="apresentacao" id="apresentacao">
             <div class="titulo-apresentacao">
                 <h2>Apresentação</h2>
                 <img src="./img/apresentacao-icon.png" alt="icone seção apresentação">
@@ -47,7 +47,7 @@
             </p>
         </section>
 
-        <section class="disciplinas">
+        <section class="disciplinas" id="disciplinas">
             <div class="titulo-disciplinas">
                 <h2>Disciplinas</h2>
                 <img src="./img/disciplinas-icon.png" alt="icone seção disciplinas">
@@ -63,7 +63,7 @@
             </ul>
         </section>
 
-        <section class="horario">
+        <section class="horario" id="horario">
 
             <div class="icone-titulo-horario">
                 <h2>Horário</h2>
@@ -72,68 +72,75 @@
             
             <p>Este é meu horário de aulas atual:</p>
 
-            <p class="titulo-tabela">Horário Semanal</p>
+            
             <div class="table-container">
                 <table class="center-content max-width-container">
-                    <tr class="destaque-celula">
-                        <th>&nbsp;</th>
-                        <th>Seg.</th>
-                        <th>Ter.</th>
-                        <th>Qua.</th>
-                        <th>Qui.</th>
-                        <th>Sex.</th>
-                    </tr>
+                    <caption class="titulo-tabela">Horário Semanal</caption>
 
-                    <tr>
-                        <td class="destaque-celula">18:20~19:10</td>
-                        <td>PRO DIG SI LAB ELET 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>PROJ WEB LAB FISICA 17300.6N</td>
-                        <td>&nbsp;</td>
-                    </tr>
+                    <thead>
+                        <tr class="destaque-celula">
+                            <th>&nbsp;</th>
+                            <th>Seg.</th>
+                            <th>Ter.</th>
+                            <th>Qua.</th>
+                            <th>Qui.</th>
+                            <th>Sex.</th>
+                        </tr>
+                    </thead>
+                   
+                    <tbody>
+                        <tr>
+                            <td class="destaque-celula">18:20~19:10</td>
+                            <td>PRO DIG SI LAB ELET 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>PROJ WEB LAB FISICA 17300.6N</td>
+                            <td>&nbsp;</td>
+                        </tr>
 
-                    <tr>
-                        <td class="destaque-celula">19:11~20:00</td>
-                        <td>PRO DIG SI LAB ELET 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>PROJ WEB LAB FISICA 17300.6N</td>
-                        <td>&nbsp;</td>
-                    </tr>
+                        <tr>
+                            <td class="destaque-celula">19:11~20:00</td>
+                            <td>PRO DIG SI LAB ELET 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>PROJ WEB LAB FISICA 17300.6N</td>
+                            <td>&nbsp;</td>
+                        </tr>
 
-                    <tr>
-                        <td class="destaque-celula">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
+                        <tr>
+                            <td class="destaque-celula">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
 
-                    <tr>
-                        <td class="destaque-celula">20:10~21:00</td>
-                        <td>PRO DIG SI LAB ELET 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>PROJ WEB LAB FISICA 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
+                        <tr>
+                            <td class="destaque-celula">20:10~21:00</td>
+                            <td>PRO DIG SI LAB ELET 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>PROJ WEB LAB FISICA 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
 
-                    <tr>
-                        <td class="destaque-celula">21:01~21:50</td>
-                        <td>PRO DIG SI LAB ELET 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>PROJ WEB LAB FISICA 17300.6N</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
+                        <tr>
+                            <td class="destaque-celula">21:01~21:50</td>
+                            <td>PRO DIG SI LAB ELET 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>PROJ WEB LAB FISICA 17300.6N</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+
                 </table>
             </div>
 
         </section>
 
-        <section class="conteudo-planejado">
+        <section class="conteudo-planejado" id="conteudo-planejado">
             <div class="titulo-conteudo-planejado">
                 <h2>Conteúdo Planejado para TWEB</h2>
                 <img src="./img/conteudo_planejado_logo.png" alt="icone seção conteúdo planejado">
@@ -151,7 +158,7 @@
             </ol>
         </section>
 
-        <section class="o-que-aprendemos">
+        <section class="o-que-aprendemos" id="aprendizados">
             <div class="titulo-o-que-aprendemos">
                 <h2>O Que Aprendemos Até Aqui em TWEB</h2>
                 <img src="./img/o_que_aprendemos_logo.png" alt="icone seção o que aprendemos até aqui em TWEB">
@@ -176,7 +183,7 @@
         </section>
     </main>
 
-    <footer class="center-content max-width-container">
+    <footer class="center-content max-width-container" id="links-uteis">
         <div class="links-uteis">
             <div class="titulo-links-uteis">
                 <h2>Links Úteis</h2>
