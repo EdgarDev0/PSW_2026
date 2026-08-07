@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.caixa {
+    height: 150px;
+    background-color: #888888;
+    margin-bottom: 10px;
+}
+
+.item {
+    text-align: center;
+}
